@@ -1,0 +1,6 @@
+/Users/junlindu/Projects/MenuManagement/MenuManagement/bin/Debug/MenuManagement.exe
+/Users/junlindu/Projects/MenuManagement/MenuManagement/bin/Debug/MenuManagement.pdb
+/Users/junlindu/Projects/MenuManagement/MenuManagement/obj/Debug/MenuManagement.csprojAssemblyReference.cache
+/Users/junlindu/Projects/MenuManagement/MenuManagement/obj/Debug/MenuManagement.csproj.CoreCompileInputs.cache
+/Users/junlindu/Projects/MenuManagement/MenuManagement/obj/Debug/MenuManagement.exe
+/Users/junlindu/Projects/MenuManagement/MenuManagement/obj/Debug/MenuManagement.pdb
