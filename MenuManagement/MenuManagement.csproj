@@ -36,7 +36,6 @@
     <Compile Include="Menu.cs" />
     <Compile Include="OrderPanel.cs" />
     <Compile Include="IdentifiableEntities.cs" />
-    <Compile Include="ICanSaveAndLoad.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
