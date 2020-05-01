@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{0026EA33-460B-4ED3-A27B-ECB518FDA37C}|Default">
   <MonoDevelop.Ide.ItemProperties.MenuManagement PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MenuManagement/OrderPanel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MenuManagement/Dish.cs">
     <Files>
-      <File FileName="MenuManagement/Menu.cs" Line="29" Column="1" />
-      <File FileName="MenuManagement/IdentifiableEntities.cs" Line="32" Column="37" />
-      <File FileName="MenuManagement/Dish.cs" />
-      <File FileName="MenuManagement/OrderPanel.cs" Line="31" Column="10" />
+      <File FileName="MenuManagement/Menu.cs" Line="19" Column="33" />
+      <File FileName="MenuManagement/IdentifiableEntities.cs" />
+      <File FileName="MenuManagement/Dish.cs" Line="21" Column="10" />
+      <File FileName="MenuManagement/OrderPanel.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MenuManagement" expanded="True">
             <Node name="MenuManagement" expanded="True">
-              <Node name="OrderPanel.cs" selected="True" />
+              <Node name="Dish.cs" selected="True" />
             </Node>
           </Node>
         </State>

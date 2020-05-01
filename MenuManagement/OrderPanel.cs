@@ -20,12 +20,15 @@ namespace MenuManagement
         /// this method should be able to load information from a
         /// text file, adding different menu to the menu list.
         /// </summary>
-        private void loadMenu()
+        public override void Load()
         {
 
         }
 
+        public override void Save()
+        {
 
+        }
 
         public override void Locate()
         {

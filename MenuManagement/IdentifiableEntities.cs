@@ -27,6 +27,10 @@ namespace MenuManagement
 
         public abstract void Locate();
 
+        public abstract void Save();
+
+        public abstract void Load();
+
         public String Name
         {
             get { return _name; }

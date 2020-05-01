@@ -26,6 +26,16 @@ namespace MenuManagement
         {
         }
 
+        public override void Load()
+        {
+            
+        }
+
+        public override void Save()
+        {
+            
+        }
+
         public List<Dish> Dishes
         {
             get { return _dishes; }
