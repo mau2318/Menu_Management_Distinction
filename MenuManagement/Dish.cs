@@ -4,7 +4,6 @@ namespace MenuManagement
     public class Dish:IdentifiableEntities
     {
         private String _description;
-        private String _cookMethod;
         private double _price;
 
         /// <summary>
@@ -18,7 +17,6 @@ namespace MenuManagement
             :base(ids, name)
         {
             _description = description;
-            _cookMethod = cookMethod;
             _price = priceRange(price);
         }
 
@@ -35,6 +33,16 @@ namespace MenuManagement
 
         }
 
+        public override void Load()
+        {
+
+        }
+
+        public override void Save()
+        {
+
+        }
+
         private double priceRange(double num)
         {
             if (num < 150 && num > 0)
@@ -46,12 +54,6 @@ namespace MenuManagement
         {
             get { return _description; }
             set { _description = value; }
-        }
-
-        public String CookMethod
-        {
-            get { return _cookMethod; }
-            set { _cookMethod = value; }
         }
 
         public double Price

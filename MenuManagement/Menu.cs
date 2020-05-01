@@ -40,5 +40,6 @@ namespace MenuManagement
         {
             _dishes.RemoveAt(num - 1);
         }
+
     }
 }
