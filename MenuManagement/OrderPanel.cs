@@ -36,9 +36,17 @@ namespace MenuManagement
 
 
         /// <summary>
-        /// this method shoule be able to be called to 
+        /// this method shoule be able to be called for the customer to finalize their orders
         /// </summary>
         public void processOrder()
+        {
+            clearOrderList();
+        }
+
+        /// <summary>
+        /// the orderList should be cleared after customers finish ordering
+        /// </summary>
+        private void clearOrderList()
         {
 
         }

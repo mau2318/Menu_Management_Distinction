@@ -20,7 +20,7 @@ namespace MenuManagement
         }
 
         /// <summary>
-        /// should be able to identify itelf by its own identifier,
+        /// should be able to identify itelf by its own identifier, and can locate items in the menu
         /// </summary>
         public override void Locate()
         {

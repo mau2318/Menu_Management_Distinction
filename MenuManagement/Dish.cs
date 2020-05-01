@@ -13,7 +13,7 @@ namespace MenuManagement
         /// identifiers should be all lowercase letters!</param>
         /// <param name="name">dish name, combination of lowercase and uppercase letters</param>
         public Dish
-            (String[] ids, String name, String description, String cookMethod, double price)
+            (String[] ids, String name, String description, double price)
             :base(ids, name)
         {
             _description = description;
