@@ -19,13 +19,6 @@ namespace MenuManagement
             _dishes = new List<Dish>();
         }
 
-        /// <summary>
-        /// should be able to identify itelf by its own identifier, and can locate items in the menu
-        /// </summary>
-        public override void Locate()
-        {
-        }
-
         public override void Load()
         {
             

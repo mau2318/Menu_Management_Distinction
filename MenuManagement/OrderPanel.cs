@@ -30,11 +30,6 @@ namespace MenuManagement
 
         }
 
-        public override void Locate()
-        {
-        }
-
-
         /// <summary>
         /// this method shoule be able to be called for the customer to finalize their orders
         /// </summary>
