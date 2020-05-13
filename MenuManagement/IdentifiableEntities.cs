@@ -25,7 +25,13 @@ namespace MenuManagement
                 return false;
         }
 
-        public abstract void Locate();
+        public IdentifiableEntities Locate(String id)
+        {
+            if (identifyObject(id))
+                return this;
+            else
+                return null;
+        }
 
         public abstract void Save();
 

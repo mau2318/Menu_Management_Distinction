@@ -61,10 +61,5 @@ namespace MenuManagement
             get { return _price; }
             set { _price = priceRange(value); }
         }
-
-        public override void Locate()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
