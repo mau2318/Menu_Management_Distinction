@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuManagement", "MenuManagement\MenuManagement.csproj", "{0026EA33-460B-4ED3-A27B-ECB518FDA37C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTesting", "NUnitTesting\NUnitTesting.csproj", "{F11C3D05-F57E-4186-95C2-929E1C3097C9}"
@@ -11,13 +12,19 @@ Global
 		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Debug|anycpu.ActiveCfg = Debug|anycpu
-		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Debug|anycpu.Build.0 = Debug|anycpu
-		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Release|anycpu.ActiveCfg = Release|anycpu
-		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Release|anycpu.Build.0 = Release|anycpu
+		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{0026EA33-460B-4ED3-A27B-ECB518FDA37C}.Release|anycpu.Build.0 = Release|Any CPU
 		{F11C3D05-F57E-4186-95C2-929E1C3097C9}.Debug|anycpu.ActiveCfg = Debug|Any CPU
 		{F11C3D05-F57E-4186-95C2-929E1C3097C9}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{F11C3D05-F57E-4186-95C2-929E1C3097C9}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{F11C3D05-F57E-4186-95C2-929E1C3097C9}.Release|anycpu.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53BD755D-EFCF-4DD3-B69C-AA3AABF783ED}
 	EndGlobalSection
 EndGlobal
